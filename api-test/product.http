@@ -1,0 +1,11 @@
+###
+GET http://localhost:8030/products
+
+###
+POST http://localhost:8030/products
+Content-Type: application/json
+
+{
+    "name": "Metal Gear Solid V: The Phantom Pain",
+    "price": 149.00
+}
